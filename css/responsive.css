@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+
+    nav {
+        background-color: var(--white);
+    }
+
+    nav .mobile-nav {
+        display: inline;
+    }
+
+    nav .nav-ul {
+        display: none;
+    }
+
+    header .container {
+        display: initial;
+    }
+
+    header .header-text {
+        text-align: center;
+    }
+
+    header .header-right {
+        width: 100%;
+    }
+
+    .section-benefits .cards {
+        flex-wrap: wrap;
+    }
+
+    .section-benefits .card {
+        flex: 0 0 calc(50% - 40px);
+    }
+
+    .section-2 .container {
+        display: initial;
+        text-align: center;
+    }
+
+    .section-5 .container {
+        display: initial;
+        text-align: center;
+    }
+
+    .section-5 .woman_three {
+        max-width: 500px;
+        margin: var(--size-50) auto;
+        position: static;
+        padding-right: 0;
+    }
+
+    .section-5 .dots {
+        display: none;
+    }
+
+    .section-5 .right {
+        margin-left: 0;
+    }
+
+    .section-5 .right img {
+        margin: 0 auto;
+    }
+
+    .section-7 .pricing {
+        grid-column: 1 / 4;
+        text-align: center;
+    }
+
+    .section-7 .cards-right {
+        grid-column: 1 / 4;
+    }
+
+    .section-8 .container {
+        display: initial;
+        text-align: center;
+    }
+
+    .section-8 hr {
+        margin: 0 auto var(--size-20);
+    }
+
+    .top-left {
+        width: 50%;
+    }
+
+    .top-right {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    nav .ul-extended {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .ul-extended li {
+        margin: var(--size-16);
+    }
+
+    .section-benefits .card {
+        flex: 0 0 calc(100% - 40px);
+    }
+
+    .section-3 .circles {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-3 .headings {
+        flex-direction: column;
+        padding: 0 0 0 30px;
+    }
+
+    .section-3 .why-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-6 .logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-6 .logos img {
+        padding-bottom: 20px;
+    }
+
+    .section-7 .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .section-8 .right input,
+    .section-8 .right select {
+        width: 100%;
+    }
+
+    .top-left {
+        width: 100%;
+    }
+
+    .top-right {
+        width: 100%;
+    }
+
+    footer .middle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
